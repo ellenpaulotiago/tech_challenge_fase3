@@ -253,12 +253,9 @@ O modelo não deve ser usado isoladamente para punir, excluir, rotular ou reduzi
 ├── apresentação
 │   └── roteiro_video_executivo_tech_challenge_fase3.docx
 ├── artifacts
-│   ├── artifacts (1)
-│   │   └── artifacts
-│   │       ├── feature_schema.json
-│   │       ├── model_metadata.json
-│   │       └── model_pipeline.joblib
-│   └── artifacts (1).zip
+│   └── feature_schema.json
+│   └── model_metadata.json
+│   └── model_pipeline.joblib
 ├── config
 │   └── paths.example.py
 ├── docs
