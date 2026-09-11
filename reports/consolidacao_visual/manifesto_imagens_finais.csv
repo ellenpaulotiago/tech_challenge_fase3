@@ -1,0 +1,12 @@
+﻿arquivo;titulo;origem;caminho;existe;tamanho_bytes
+01_metricas_finais_ic95.png;Métricas finais e IC de 95%;Notebook 08;/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase3/images/finais/01_metricas_finais_ic95.png;True;88380
+02_matriz_confusao_teste.png;Matriz de confusão do teste;Notebook 08;/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase3/images/finais/02_matriz_confusao_teste.png;True;68596
+03_curvas_pr_roc_teste.png;Curvas PR e ROC do teste;Notebook 08;/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase3/images/finais/03_curvas_pr_roc_teste.png;True;157247
+04_tradeoff_limiar_validacao.png;Trade-off do limiar na validação;Notebook 08;/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase3/images/finais/04_tradeoff_limiar_validacao.png;True;122034
+05_importancia_permutacao_top15.png;Top 15 variáveis por importância;Notebook 08;/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase3/images/finais/05_importancia_permutacao_top15.png;True;152397
+06_metricas_por_regiao.png;Desempenho por região;Notebook 08;/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase3/images/finais/06_metricas_por_regiao.png;True;84388
+07_top20_risco_municipal.png;Top 20 municípios por risco previsto;Notebook 09;/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase3/images/finais/07_top20_risco_municipal.png;True;146248
+08_top20_gap_meta.png;Top 20 menores gaps previstos para a meta;Notebook 09;/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase3/images/finais/08_top20_gap_meta.png;True;161524
+09_selecao_numero_clusters.png;Seleção do número de clusters;Notebook 09;/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase3/images/finais/09_selecao_numero_clusters.png;True;82662
+10_clusters_por_regiao.png;Composição dos clusters por região;Notebook 09;/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase3/images/finais/10_clusters_por_regiao.png;True;84353
+11_clusters_municipais_pca.png;Projeção PCA dos clusters municipais;Notebook 09;/Volumes/workspace/default/vol_trio_drive/projetos/fiap/tech_challenge_fase3/images/finais/11_clusters_municipais_pca.png;True;292122
