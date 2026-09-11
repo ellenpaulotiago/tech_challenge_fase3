@@ -1,0 +1,21 @@
+# Tech Challenge - Fase 3
+# Ambiente validado no Databricks com scikit-learn 1.6.1.
+# O Databricks Runtime fornece Python e dbutils; dbutils não é um pacote pip.
+
+# Manipulação e persistência de dados
+numpy>=1.26,<3.0
+pandas>=2.1,<3.0
+pyarrow>=14,<23
+
+# Modelagem, validação estatística e serialização
+scikit-learn==1.6.1
+scipy>=1.11,<2.0
+joblib>=1.3,<2.0
+
+# Visualização e interpretabilidade
+matplotlib>=3.8,<4.0
+seaborn>=0.13,<1.0
+shap>=0.46,<1.0
+
+# Extração da fonte Fundeb em PDF
+pdfplumber>=0.11,<1.0

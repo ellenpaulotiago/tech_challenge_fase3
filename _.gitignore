@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Ambientes virtuais e variáveis locais
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Credenciais, chaves e configurações sensíveis
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+.aws/
+
+# IDE e sistema operacional
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Jupyter e Databricks local
+.ipynb_checkpoints/
+.databricks/
+
+# Logs e arquivos temporários
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Dados locais: as fontes oficiais permanecem no S3/Unity Catalog Volumes
+data/
+bronze/
+silver/
+gold/
+
+# Partições e bases de modelagem de grande volume
+modelagem/*.parquet
+modelagem/auxiliares_*.parquet
+modelagem/treino.parquet
+modelagem/validacao.parquet
+modelagem/teste.parquet
+
+# Artefatos binários treinados
+artifacts/*.joblib
+artifacts/*.pkl
+artifacts/*.pickle
+artifacts/*.onnx
+
+# Resultados detalhados pesados; relatórios CSV leves permanecem versionáveis
+reports/modelagem/*.parquet
+reports/modelagem/previsoes_teste_rastreaveis.*
+
+# Formatos de dados eventualmente exportados para execução local
+*.delta
+*.feather
+
+# As pastas abaixo devem permanecer versionadas:
+# notebooks/, src/, reports/ (arquivos leves), images/finais/,
+# README.md, requirements.txt e documentação.
