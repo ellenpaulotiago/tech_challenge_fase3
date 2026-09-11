@@ -250,35 +250,92 @@ O modelo não deve ser usado isoladamente para punir, excluir, rotular ou reduzi
 ## 14. Estrutura recomendada do repositório
 
 ```text
-tech-challenge-fase3/
-├── notebooks/
-│   ├── 00_setup_ambiente_AWS_S3.ipynb
+├── apresentação
+│   └── roteiro_video_executivo_tech_challenge_fase3.docx
+├── artifacts
+│   ├── artifacts (1)
+│   │   └── artifacts
+│   │       ├── feature_schema.json
+│   │       ├── model_metadata.json
+│   │       └── model_pipeline.joblib
+│   └── artifacts (1).zip
+├── config
+│   └── paths.example.py
+├── docs
+│   ├── enunciado
+│   │   └── [IAST] - Tech Challenge - Fase 3.pdf
+│   ├── guias
+│   │   ├── guia_eda_tech_challenge_fase3.docx
+│   │   └── guia_modelagem_tech_challenge_fase3.docx
+│   ├── model_card
+│   │   └── MODEL_CARD.md
+│   └── resumos
+│       ├── resumo_construcao_base_enriquecida_tech_challenge.docx
+│       ├── resumo_construcao_eda_tech_challenge_fase3.docx
+│       ├── resumo_construcao_modelagem_note07e08.docx
+│       ├── resumo_construcao_notebook09_aplicacao_estrategica.docx
+│       └── resumo_construcao_notebook10_consolidacao_graficos_finais.docx
+├── images
+│   └── finais
+│       ├── 01_metricas_finais_ic95.png
+│       ├── 02_matriz_confusao_teste.png
+│       ├── 03_curvas_pr_roc_teste.png
+│       ├── 04_tradeoff_limiar_validacao.png
+│       ├── 05_importancia_permutacao_top15.png
+│       ├── 06_metricas_por_regiao.png
+│       ├── 07_top20_risco_municipal.png
+│       ├── 08_top20_gap_meta.png
+│       ├── 09_selecao_numero_clusters.png
+│       ├── 10_clusters_por_regiao.png
+│       └── 11_clusters_municipais_pca.png
+├── notebooks
+│   ├── 00_setup_ambiente_AWS_S3_Fase3.ipynb
 │   ├── 01_merge_alunos_atlas.ipynb
 │   ├── 02_merge_alunos_atlas_censo.ipynb
 │   ├── 03_merge_alunos_atlas_censo_fundeb.ipynb
 │   ├── 04_merge_alunos_atlas_censo_fundeb_indicadores.ipynb
 │   ├── 05_base_enriquecida_pronta.ipynb
 │   ├── 06_eda_entendimento_modelagem.ipynb
-│   ├── 07_preparacao_para_modelagem_rastreabilidade_databricks.ipynb
+│   ├── 07_preparacao_para_modelagem_rastreabilidade_databricks (1).ipynb
 │   ├── 08_modelagem_e_validacao_rastreabilidade_databricks.ipynb
 │   ├── 09_aplicacao_estrategica_e_inteligencia_educacional.ipynb
 │   └── 10_consolidacao_graficos_finais_databricks.ipynb
-├── src/
+├── reports
+│   ├── aplicacao_estrategica
+│   │   ├── avaliacao_k_clusters.csv
+│   │   ├── distribuicao_clusters_regiao.csv
+│   │   ├── municipios_clusters.csv
+│   │   ├── municipios_risco_meta.csv
+│   │   ├── painel_municipal_teste.csv
+│   │   ├── perfil_clusters.csv
+│   │   ├── ranking_municipal_risco.csv
+│   │   └── resumo_executivo_aplicacao.csv
+│   ├── consolidacao_visual
+│   │   └── manifesto_imagens_finais.csv
+│   └── modelagem
+│       ├── comparacao_estatistica_otimizada.csv
+│       ├── diagnostico_generalizacao.csv
+│       ├── importancia_permutacao.csv
+│       ├── intervalos_confianca.csv
+│       ├── metricas_por_dependencia.csv
+│       ├── metricas_por_regiao.csv
+│       ├── metricas_por_uf.csv
+│       ├── metricas_teste_final.csv
+│       ├── previsoes_teste_rastreaveis.parquet
+│       └── resultados_bootstrap.parquet
+├── src
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   └── preprocessing.cpython-312.pyc
 │   ├── __init__.py
-│   ├── preprocessing.py
-│   ├── modeling/
-│   ├── evaluation/
-│   └── visualization/
-├── reports/
-│   ├── modelagem/
-│   ├── aplicacao_estrategica/
-│   └── consolidacao_visual/
-├── images/
-│   └── finais/
-├── artifacts/
-├── requirements.txt
-├── .gitignore
-└── README.md
+│   └── preprocessing.py
+├── tests
+│   ├── __init__.py
+│   ├── test_data_contracts.py
+│   └── test_preprocessing.py
+├── _.gitignore
+├── README.md
+└── requirements.txt
 ```
 
 Arquivos pesados permanecem no S3/Unity Catalog Volume. O Git deve armazenar código, notebooks, documentação, relatórios leves e as imagens finais selecionadas.
