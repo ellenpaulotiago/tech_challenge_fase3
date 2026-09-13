@@ -1,0 +1,15 @@
+﻿;valor
+modelo;Hist_Gradient_Boosting_balanceado
+limiar;0.5
+accuracy;0.6151645638230601
+balanced_accuracy;0.6178981081177942
+recall_nao_alfabetizado;0.6261822249298405
+precision_nao_alfabetizado;0.4469274141237018
+f1_nao_alfabetizado;0.5215832425192789
+pr_auc_risco;0.4709547971289282
+roc_auc_risco;0.6611296233144222
+brier_score_risco;0.22819849867322803
+VP;62699
+FN;37430
+FP;77590
+VN;121162

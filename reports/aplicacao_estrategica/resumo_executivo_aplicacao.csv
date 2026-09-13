@@ -1,0 +1,2 @@
+﻿escopo;municipios_teste;municipios_elegiveis;municipio_maior_risco;probabilidade_maior_risco;municipio_maior_deficit_meta;maior_deficit_meta_pp;municipios_abaixo_meta;quantidade_clusters;cluster_maior_risco;modelo_retreinado;limiar_alterado
+municípios do conjunto de teste;834;484;Goianinha - RN;0.7314310022530361;Vacaria - RS;-39.68545817513246;399;2;Cluster 1 — maior risco relativo;False;False

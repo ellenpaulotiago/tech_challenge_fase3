@@ -1,0 +1,2 @@
+﻿modelo;limiar_congelado;recall_validacao;recall_teste;gap_recall_teste_validacao;recall_minimo_desenvolvimento;recall_minimo_mantido_no_teste;regiao_menor_recall;menor_recall_regional;regiao_maior_recall;maior_recall_regional;amplitude_recall_regional;quantidade_ufs_recall_zero;ufs_recall_zero;modelo_ou_limiar_reajustado_pelo_teste
+Hist_Gradient_Boosting_balanceado;0.5;0.7126833341210203;0.6261822249298405;-0.0865011091911797;0.7;False;Centro-Oeste;0.09624925580472316;Norte;0.8981760507533704;0.8019267949486473;5;12, 23, 32, 41, 52;False

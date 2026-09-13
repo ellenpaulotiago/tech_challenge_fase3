@@ -1,0 +1,18 @@
+{
+  "co_uf": "int64",
+  "tp_dependencia": "float64",
+  "atlas_idhm": "float64",
+  "atlas_idhm_e": "float64",
+  "atlas_renda_pc": "float64",
+  "atlas_indice_gini": "float64",
+  "atlas_prop_pobreza_criancas": "float64",
+  "atlas_taxa_criancas_dom_sem_fund": "float64",
+  "censo_prop_mat_2ano_internet_aprendizagem": "float64",
+  "censo_prop_mat_2ano_alimentacao": "float64",
+  "censo_prop_mat_2ano_biblioteca_sala_leitura": "float64",
+  "fundeb_receita_contribuicao": "float64",
+  "fundeb_complementacao_uniao": "float64",
+  "fundeb_receita_total": "float64",
+  "indicador_meta_final_2025": "float64",
+  "indicador_pc_aluno_alfabetizado_2024": "float64"
+}
