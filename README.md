@@ -250,7 +250,7 @@ O modelo não deve ser usado isoladamente para punir, excluir, rotular ou reduzi
 ## 14. Estrutura recomendada do repositório
 
 ```text
-├── apresentação
+├── presentation
 │   └── tc3 - Ellen Paulo e Tiago apresentação executiva.mp4
 │   └── 00 - Da base gold à aplicação estratégica.jpg
 │   └── 12 - principais pontos de atenção.jpg
