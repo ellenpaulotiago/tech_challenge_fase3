@@ -251,7 +251,11 @@ O modelo não deve ser usado isoladamente para punir, excluir, rotular ou reduzi
 
 ```text
 ├── apresentação
-│   └── roteiro_video_executivo_tech_challenge_fase3.docx
+│   └── tc3 - Ellen Paulo e Tiago apresentação executiva.mp4
+│   └── 00 - Da base gold à aplicação estratégica.jpg
+│   └── 12 - principais pontos de atenção.jpg
+│   └── 13 - pull request.jpg
+│   └── 14 - Main completa.jpg
 ├── artifacts
 │   └── feature_schema.json
 │   └── model_metadata.json
